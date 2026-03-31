@@ -2,11 +2,11 @@
 
 from pet import Mood, Species
 
-CAT_HAPPY = r"""
-  /\_/\
- ( ^.^ )
+CAT_HAPPY = """
+  /\\_/\\
+ ( ♥.♥ )
   > ^ <
- /|   |\
+ /|   |\\
 (_|   |_)
 """
 
