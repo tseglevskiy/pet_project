@@ -94,31 +94,31 @@ DOG_NEUTRAL = r"""
 
 RABBIT_HAPPY = r"""
  (\(\
- ( ^.^)
+ ( ^o^)
  o_(")(")
 """
 
 RABBIT_SAD = r"""
  (\(\
- ( T.T)
+ ( ; ;)
  o_(")(")
 """
 
 RABBIT_SLEEPY = r"""
  (\(\
- ( -.-) z Z
+ ( - -) z Z
  o_(")(")
 """
 
 RABBIT_SICK = r"""
  (\(\
- ( x.x)
+ ( @ @)
  o_(")(")
 """
 
 RABBIT_NEUTRAL = r"""
  (\(\
- ( o.o)
+ ( . .)
  o_(")(")
 """
 
