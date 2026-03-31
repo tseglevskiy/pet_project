@@ -122,6 +122,51 @@ RABBIT_NEUTRAL = r"""
  o_(")(")
 """
 
+DRAGON_HAPPY = r"""
+    __   __
+   / ^.^ \
+  ( {|||} )~*
+   \_____/
+  /|     |\
+ /_|_____|_\
+"""
+
+DRAGON_SAD = r"""
+    __   __
+   / T.T \
+  ( {|||} )
+   \_____/
+  /|     |\
+ /_|_____|_\
+"""
+
+DRAGON_SLEEPY = r"""
+    __   __
+   / -.- \ zZ
+  ( {|||} )
+   \_____/
+  /|     |\
+ /_|_____|_\
+"""
+
+DRAGON_SICK = r"""
+    __   __
+   / x.x \
+  ( {|||} )
+   \_____/
+  /|     |\
+ /_|_____|_\
+"""
+
+DRAGON_NEUTRAL = r"""
+    __   __
+   / o.o \
+  ( {|||} )
+   \_____/
+  /|     |\
+ /_|_____|_\
+"""
+
 _ART = {
     Species.CAT: {
         Mood.HAPPY: CAT_HAPPY, Mood.SAD: CAT_SAD,
@@ -137,6 +182,11 @@ _ART = {
         Mood.HAPPY: RABBIT_HAPPY, Mood.SAD: RABBIT_SAD,
         Mood.SLEEPY: RABBIT_SLEEPY, Mood.SICK: RABBIT_SICK,
         Mood.NEUTRAL: RABBIT_NEUTRAL,
+    },
+    Species.DRAGON: {
+        Mood.HAPPY: DRAGON_HAPPY, Mood.SAD: DRAGON_SAD,
+        Mood.SLEEPY: DRAGON_SLEEPY, Mood.SICK: DRAGON_SICK,
+        Mood.NEUTRAL: DRAGON_NEUTRAL,
     },
 }
 

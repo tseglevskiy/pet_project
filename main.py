@@ -32,13 +32,14 @@ def adopt_pet() -> Pet:
     print(f"  {GREEN}[1]{RESET} 🐱 Cat")
     print(f"  {GREEN}[2]{RESET} 🐶 Dog")
     print(f"  {GREEN}[3]{RESET} 🐰 Rabbit")
+    print(f"  {GREEN}[4]{RESET} 🐉 Dragon")
 
-    species_map = {"1": Species.CAT, "2": Species.DOG, "3": Species.RABBIT}
+    species_map = {"1": Species.CAT, "2": Species.DOG, "3": Species.RABBIT, "4": Species.DRAGON}
     while True:
-        choice = prompt("Species (1/2/3)")
+        choice = prompt("Species (1/2/3/4)")
         if choice in species_map:
             break
-        print(f"{RED}Please choose 1, 2, or 3.{RESET}")
+        print(f"{RED}Please choose 1, 2, 3, or 4.{RESET}")
 
     species = species_map[choice]
     while True:

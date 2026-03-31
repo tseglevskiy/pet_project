@@ -43,7 +43,7 @@ def bar(value: int, max_val: int = 100, width: int = 20,
 def display_stats(pet: Pet) -> str:
     """Return a formatted string with all pet stats."""
     mood_str = MOOD_EMOJI.get(pet.mood, str(pet.mood))
-    species_emoji = {"cat": "🐱", "dog": "🐶", "rabbit": "🐰"}
+    species_emoji = {"cat": "🐱", "dog": "🐶", "rabbit": "🐰", "dragon": "🐉"}
     emoji = species_emoji.get(pet.species.value, "🐾")
 
     lines = [

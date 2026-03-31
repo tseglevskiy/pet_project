@@ -20,6 +20,7 @@ class Species(str, Enum):
     CAT = "cat"
     DOG = "dog"
     RABBIT = "rabbit"
+    DRAGON = "dragon"
 
 
 class Mood(str, Enum):
